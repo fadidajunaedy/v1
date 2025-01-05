@@ -1,0 +1,38 @@
+[ 
+    {
+        "image": "dreamcost.png",
+        "title": "DreamCost",
+        "year": 2024,
+        "description": "A web app for projecting the future prices of the things you aspire to own.",
+        "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+        "link": "https://dreamcost.vercel.app",
+        "source": "https://github.com/fadidajunaedy/dreamcost"
+    },
+    {
+        "image": "madani-infosphere.png",
+        "title": "Madani Infosphere",
+        "year": 2023,
+        "description": "An integrated information system of diverse knowledge and information related to the work of Madani Berkelanjutan.",
+        "tech_stack": ["JavaScript", "React JS", "Tailwind CSS", "Node.js", "REST API"],
+        "link": "https://madani-infosphere.id",
+        "source": null
+    },
+    {
+        "image": "job-filter.png",
+        "title": "JobFilter",
+        "year": 2023,
+        "description": "A simple job search web app designed to showcase intuitive filtering features.",
+        "tech_stack": ["JavaScript", "React JS"],
+        "link": "https://job-listing-fj.vercel.app",
+        "source": "https://github.com/fadidajunaedy/job-listing"
+    },
+    {
+        "image": "easycookin.png",
+        "title": "EasyCookin'",
+        "year": 2023,
+        "description": "An easy to use website for finding recipes from around the world.",
+        "tech_stack": ["HTML", "CSS", "JavaScript", "Web Component"],
+        "link": "https://easycookin.vercel.app",
+        "source": "https://github.com/fadidajunaedy/EasyCookin"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "place": "Madani Berkelanjutan",
+        "status": "Internship",
+        "type": "Hybrid",
+        "period": "August 2024 - Present",
+        "role": "Full Stack Web Developer",
+        "description": "Responsible for redesigning and rebuilding the organization's website, to improved performance and user experience. Build internal web applications to support the work needs of the organization.",
+        "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React JS", "Node.js", "REST API"]
+    },
+    {
+        "place": "LSP Geospasial",
+        "status": "Freelance",
+        "type": "Remote",
+        "period": "April 2024 - May 2024",
+        "role": "Front End Web Developer",
+        "description": "Responsible for building user interfaces, integrating APIs, and ensuring dynamic data updates.",
+        "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React JS", "REST API"]
+    }
+]

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Figtree", serif;
+  background-color: #FAFAFA;
+  color: #323e4b;
+  /* color: #1D242B; */
+  line-height: normal;
+}
+
+.container {
+  width: 100%;
+  height: -webkit-fill-available;
+  max-width: 1200px;
+  margin: 0 auto;
+  @apply px-4 lg:px-0
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  padding-bottom: 0;
+}
+
+h1 {
+  @apply text-4xl lg:text-6xl font-extrabold;
+}
+
+h2 {
+  @apply text-lg lg:text-2xl font-semibold;
+}
+
+h3 {
+  @apply text-base lg:text-lg font-semibold;
+}
+
+p {
+  @apply text-base lg:text-lg;
+}
+
+.table-projects {
+  
+}
+
+.table-projects th,
+.table-projects td {
+  @apply py-4 px-0 border-b-2;
+}
+
+.section-hero {
+  /* background: rgb(199,238,255);
+  background: linear-gradient(183deg, rgba(199,238,255,1) 0%, rgba(250,250,250,1) 100%); */
+}
