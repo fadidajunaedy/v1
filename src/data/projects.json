@@ -1,5 +1,14 @@
 [ 
     {
+        "image": "wordify.png",
+        "title": "Wordify",
+        "year": 2025,
+        "description": "an interactive digital dictionary application that makes it easy for users to find the meaning, pronunciation, synonyms, and antonyms of various words.",
+        "tech_stack": ["React JS", "Tailwind CSS"],
+        "link": "https://wordify-me.vercel.app/",
+        "source": "https://github.com/fadidajunaedy/wordify"
+    },
+    {
         "image": "dreamcost.png",
         "title": "DreamCost",
         "year": 2024,
