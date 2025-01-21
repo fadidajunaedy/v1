@@ -1,5 +1,14 @@
 [ 
     {
+        "image": "wordify.png",
+        "title": "Wordify",
+        "year": 2025,
+        "description": "an interactive digital dictionary application that makes it easy for users to find the meaning, pronunciation, synonyms, and antonyms of various words.",
+        "tech_stack": ["React JS", "Tailwind CSS"],
+        "link": "https://wordify-me.vercel.app/",
+        "source": "https://github.com/fadidajunaedy/wordify"
+    },
+    {
         "image": "dreamcost.png",
         "title": "DreamCost",
         "year": 2024,
@@ -7,5 +16,23 @@
         "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
         "link": "https://dreamcost.vercel.app",
         "source": "https://github.com/fadidajunaedy/dreamcost"
+    },
+    {
+        "image": "job-filter.png",
+        "title": "JobFilter",
+        "year": 2023,
+        "description": "A simple job search web app designed to showcase intuitive filtering features.",
+        "tech_stack": ["JavaScript", "React JS"],
+        "link": "https://job-listing-fj.vercel.app",
+        "source": "https://github.com/fadidajunaedy/job-listing"
+    },
+    {
+        "image": "easycookin.png",
+        "title": "EasyCookin'",
+        "year": 2023,
+        "description": "An easy to use website for finding recipes from around the world.",
+        "tech_stack": ["HTML", "CSS", "JavaScript", "Web Component"],
+        "link": "https://easycookin.vercel.app",
+        "source": "https://github.com/fadidajunaedy/EasyCookin"
     }
 ]
