@@ -57,7 +57,7 @@ const Header = () => {
             <header className="lg:sticky lg:top-0 lg:self-start lg:w-1/2 lg:h-screen flex flex-col gap-4 py-12 lg:py-24">
                 <h1>Fadida Junaedy</h1>
                 <h2>Web Developer</h2>
-                <p className="max-w-sm">I enjoys turning ideas into functional and useful web applications.</p>
+                <p className="max-w-sm">I love working with HTML, CSS, and JavaScript</p>
                 <nav className="hidden lg:flex flex-col gap-6 mt-12">
                 {sections.map((section) => (
                     <a
