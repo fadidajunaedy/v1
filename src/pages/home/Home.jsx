@@ -6,7 +6,7 @@ import Education from "./sections/Education"
 import Experience from "./sections/Experience"
 import Projects from "./sections/Projects"
 
-import FileCV from "../../assets/pdf/FADIDAJUNAEDY_RESUME.pdf"
+import FileCV from "../../assets/pdf/FADIDAJUNAEDY_CV_2025.pdf"
 
 const Home = () => {
     return (
