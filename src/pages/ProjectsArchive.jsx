@@ -10,7 +10,7 @@ const ProjectsArchive = () => {
     return (
         <>
             <section className="w-full h-full">
-                <div className="container py-12 lg:py-24">
+                <div className="container py-4 lg:py-24">
                     <Link 
                     to="/"
                     className="flex items-center gap-2 cursor-pointer group text-primary font-bold mb-4">

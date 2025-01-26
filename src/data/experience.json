@@ -5,7 +5,15 @@
         "type": "Hybrid",
         "period": "August 2024 - January 2025",
         "role": "Full Stack Web Developer",
-        "description": "Responsible for redesigning and rebuilding the organization's website, to improved performance and user experience. Build internal web applications to support the work needs of the organization.",
+        "description": "Developed and rebuilt a web application to support organizational work processes effectively.",
+        "achievements": [
+            "Rebuilt the organization's website, transitioning from Laravel to React JS.",
+            "Improved website performance score from 49 to 84, enhancing user experience and page load speed.",
+            "Enhanced website accessibility score from 84 to 91, ensuring compliance with web accessibility standards.",
+            "Optimized and improved existing features to ensure more intuitive user flow.",
+            "Integrated farmer data with Mapbox for better geospatial visualization.",
+            "Developed a custom HRIS (Human Resource Information System) web application, replacing manual processes (e.g., docs, Excel)."
+        ],
         "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React JS", "Node.js", "REST API"]
     },
     {
@@ -14,7 +22,11 @@
         "type": "Remote",
         "period": "April 2024 - May 2024",
         "role": "Front End Web Developer",
-        "description": "Responsible for building user interfaces, integrating APIs, and ensuring dynamic data updates.",
+        "description": "Designed and developed user interfaces for web applications.",
+        "achievements": [
+            "Created the user interface for an initial assessment application.",
+            "Integrated REST APIs provided by the backend development."
+        ],
         "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React JS", "REST API"]
     }
 ]

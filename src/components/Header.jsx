@@ -72,12 +72,14 @@ const Header = () => {
                     <a 
                     href="tel:+6289501437800"
                     target="_blank"
+                    title="Phone"
                     className="hover:text-primary cursor-pointer">
                         <MdOutlineLocalPhone size={24} />
                     </a>
                     <a 
                     href="mailto:fadidajunaedy@gmail.com"
                     target="_blank"
+                    title="Email"
                     className="hover:text-primary cursor-pointer">
                         <GoMail size={24} />
                     </a>
@@ -86,16 +88,18 @@ const Header = () => {
                     target="_blank"
                     className="hover:text-primary cursor-pointer">
                         <FaInstagram size={24} />
-                    </a> */}
+                    </a> */}  
                     <a 
                     href="https://github.com/fadidajunaedy"
                     target="_blank"
+                    title="GitHub"
                     className="hover:text-primary cursor-pointer">
                         <FaGithub size={24} />
                     </a>
                     <a 
                     href="https://www.linkedin.com/in/fadidajunaedy"
                     target="_blank"
+                    title="LinkedIn"
                     className="hover:text-primary cursor-pointer">
                         <FaLinkedin size={24} />
                     </a>
