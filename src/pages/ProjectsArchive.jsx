@@ -38,7 +38,7 @@ const ProjectsArchive = () => {
                                     {project.title}
                                 </span>
                                 <a 
-                                href=""
+                                href={project.link}
                                 target="_blank"
                                 className="lg:hidden flex items-center gap-2 hover:text-primary font-semibold group">
                                     {project.title}

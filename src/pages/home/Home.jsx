@@ -24,7 +24,7 @@ const Home = () => {
             target="_blank"
             rel="noreferrer noopener"
             className="flex items-center gap-2 cursor-pointer group hover:text-primary font-bold">
-                View Full Resume <MdArrowOutward className="transition-transform group-hover:-translate-y-2 group-hover:translate-x-2"/>
+                View Full CV <MdArrowOutward className="transition-transform group-hover:-translate-y-2 group-hover:translate-x-2"/>
             </a>
             <hr />
             <Projects />

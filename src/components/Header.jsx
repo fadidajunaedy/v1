@@ -6,8 +6,8 @@ import { GoMail } from "react-icons/go"
 const Header = () => {
     const [sections, setSections] = useState([
         {
-          id: "about",
-          title: "ABOUT"
+          id: "summary",
+          title: "SUMMARY"
         },
         {
           id: "experience",
@@ -38,7 +38,7 @@ const Header = () => {
     }
     
     useEffect(() => {
-        const observer = new IntersectionObserver(handleIntersection, { threshold: 0.7 })
+        const observer = new IntersectionObserver(handleIntersection, { threshold: 0.5 })
     
         const sectionElements = document.querySelectorAll('article')
         sectionElements.forEach((section) => {
@@ -54,10 +54,10 @@ const Header = () => {
 
     return (
         <>
-            <header className="lg:sticky lg:top-0 lg:self-start lg:w-1/2 lg:h-screen flex flex-col gap-4 py-12 lg:py-24">
-                <h1>Fadida Junaedy</h1>
-                <h2>Web Developer</h2>
-                <p className="max-w-sm">I love working with HTML, CSS, and JavaScript</p>
+            <header className="lg:sticky lg:top-0 lg:self-start lg:w-1/2 lg:h-screen flex flex-col py-4 lg:py-24">
+                <h1 className="mb-2">Fadida Junaedy</h1>
+                <p className="text-xl ld:text-2xl font-semibold text-primary mb-4">Front End Web Developer</p>
+                <p className="max-w-sm mb-4">I love working with HTML, CSS, and JavaScript</p>
                 <nav className="hidden lg:flex flex-col gap-6 mt-12">
                 {sections.map((section) => (
                     <a
