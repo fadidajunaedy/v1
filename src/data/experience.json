@@ -1,32 +1,46 @@
 [
-    {
-        "place": "Madani Berkelanjutan",
-        "status": "Internship",
-        "type": "Hybrid",
-        "period": "August 2024 - January 2025",
-        "role": "Full Stack Web Developer",
-        "description": "Developed and rebuilt a web application to support organizational work processes effectively.",
-        "achievements": [
-            "Rebuilt the organization's website, transitioning from Laravel to React JS.",
-            "Improved website performance score from 49 to 84, enhancing user experience and page load speed.",
-            "Enhanced website accessibility score from 84 to 91, ensuring compliance with web accessibility standards.",
-            "Optimized and improved existing features to ensure more intuitive user flow.",
-            "Integrated farmer data with Mapbox for better geospatial visualization.",
-            "Developed a custom HRIS (Human Resource Information System) web application, replacing manual processes (e.g., docs, Excel)."
-        ],
-        "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React JS", "Node.js", "REST API"]
-    },
-    {
-        "place": "LSP Geospasial",
-        "status": "Freelance",
-        "type": "Remote",
-        "period": "April 2024 - May 2024",
-        "role": "Front End Web Developer",
-        "description": "Designed and developed user interfaces for web applications.",
-        "achievements": [
-            "Created the user interface for an initial assessment application.",
-            "Integrated REST APIs provided by the backend development."
-        ],
-        "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React JS", "REST API"]
-    }
+  {
+    "place": "Madani Berkelanjutan",
+    "status": "Internship",
+    "type": "Hybrid",
+    "period": "August 2024 - January 2025",
+    "role": "Full Stack Web Developer",
+    "description": null,
+    "achievements": [
+      "Reconstructed the website by changing the technology from Laravel to React.js.",
+      "Increased the performance score from 49 to 84 and the accessibility score from 84 to 91.",
+      "Developing REST API using Node.js (Express) and MySQL.",
+      "Developed HRIS (Human Resource Information System) web application, helping to automate manual processes."
+    ],
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "React.js",
+      "Node.js",
+      "MySQL",
+      "REST API"
+    ]
+  },
+  {
+    "place": "LSP Geospasial",
+    "status": "Freelance",
+    "type": "Remote",
+    "period": "April 2024 - May 2024",
+    "role": "Front End Web Developer",
+    "description": null,
+    "achievements": [
+      "Create UI for initial assessment application.",
+      "Integrate the REST API of the backend for data connection"
+    ],
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "React JS",
+      "REST API"
+    ]
+  }
 ]

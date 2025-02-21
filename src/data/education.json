@@ -1,14 +1,14 @@
 [
-    {
-        "place": "Sekolah Tinggi Ilmu Komputer Cipta Karya Informatika",
-        "title": "Bachelor of Computer Science in Informatics Engineering",
-        "period": "September 2020 - November 2024",
-        "description": "GPA: 3.42"
-    },
-    {
-        "place": "SMK 24 Jakarta",
-        "title": "Vocational High School of Software Engineering",
-        "period": "July 2017 - May 2020",
-        "description": ""
-    }
+  {
+    "place": "STIKOM Cipta Karya Informatika",
+    "title": "Bachelor of Computer Science in Informatics Engineering",
+    "period": "September 2020 - November 2024",
+    "description": "GPA: 3.51"
+  },
+  {
+    "place": "SMK 24 Jakarta",
+    "title": "Vocational High School of Software Engineering",
+    "period": "July 2017 - May 2020",
+    "description": ""
+  }
 ]

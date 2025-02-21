@@ -1,20 +1,28 @@
-[ 
-    {
-        "image": "dreamcommerce.png",
-        "title": "DreamCommerce",
-        "year": 2025,
-        "description": "A simple e-commerce application built to showcase basic features of an online store. This project is part of my journey to learn and implement React.js and Redux for state management.",
-        "tech_stack": ["React JS", "Redux", "Tailwind CSS"],
-        "link": "https://dreamcommerce.vercel.app",
-        "source": "https://github.com/fadidajunaedy/dreamcommerce"
-    },
-    {
-        "image": "dreamcost.png",
-        "title": "DreamCost",
-        "year": 2024,
-        "description": "A web application that helps users estimate the future price of an item by taking into account the annual inflation rate.",
-        "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
-        "link": "https://dreamcost.vercel.app",
-        "source": "https://github.com/fadidajunaedy/dreamcost"
-    }
+[
+  {
+    "image": "natask.png",
+    "title": "Natask",
+    "year": 2025,
+    "description": "Natask is a web-based task management platform designed to empower managers, team leads, and task assigners to efficiently distribute, track, and oversee tasks in real time.",
+    "tech_stack": [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB",
+      "Supabase"
+    ],
+    "content_key": "natask",
+    "link": "https://natask.vercel.app",
+    "source": "https://github.com/fadidajunaedy/natask-client"
+  },
+  {
+    "image": "dreamcost.png",
+    "title": "DreamCost",
+    "year": 2024,
+    "description": "A web application that helps users estimate the future price of an item by taking into account the annual inflation rate.",
+    "tech_stack": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "content_key": "dreamcost",
+    "link": "https://dreamcost.vercel.app",
+    "source": "https://github.com/fadidajunaedy/dreamcost"
+  }
 ]

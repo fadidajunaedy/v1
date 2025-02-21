@@ -1,15 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+  font-family: "TiemposFine";
+  src: url("/assets/fonts/TestTiemposFine-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url("/assets/fonts/TestTiemposHeadline-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TiemposText";
+  src: url("/assets/fonts/TestTiemposText-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CommitMono";
+  src: url("/assets/fonts/CommitMono-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: "Figtree", serif;
-  background-color: #FFFFFF;
-  color: #000000;
-  /* color: #1D242B; */
-  line-height: normal;
+  font-family: "CommitMono";
+  background-color: #f7f7f7;
+  color: #0f0f0f;
+  @apply text-xs md:text-sm;
 }
 
 .container {
@@ -17,42 +42,90 @@ body {
   height: -webkit-fill-available;
   max-width: 1200px;
   margin: 0 auto;
-  @apply px-4 lg:px-0
+  @apply px-4 lg:px-0 leading-loose;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, span {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  padding-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "TiemposHeadline";
+  font-weight: bold;
 }
 
 h1 {
-  @apply text-4xl lg:text-6xl font-extrabold;
+  @apply text-3xl md:text-4xl;
 }
 
 h2 {
-  @apply text-lg lg:text-2xl font-semibold;
+  @apply text-2xl md:text-3xl;
 }
 
 h3 {
-  @apply text-base lg:text-lg font-semibold;
+  @apply text-xl md:text-2xl;
 }
 
-p {
-  @apply text-base lg:text-lg;
+h4 {
+  @apply text-lg md:text-xl;
+}
+
+h5 {
+  @apply text-sm md:text-base;
 }
 
 .table-projects {
-  
 }
 
 .table-projects th,
 .table-projects td {
-  @apply py-4 px-0 border-b-2;
+  @apply px-4 py-2 border-b-2;
 }
 
 .section-hero {
   /* background: rgb(199,238,255);
   background: linear-gradient(183deg, rgba(199,238,255,1) 0%, rgba(250,250,250,1) 100%); */
+}
+
+/* MD CONTENT */
+.md-container {
+  @apply w-full max-w-[680px] mx-auto flex flex-col gap-4 px-4 lg:px-0 !important;
+}
+
+.md-container h2 {
+  @apply mt-8 !important;
+}
+
+.md-container h3 {
+  @apply mt-6 !important;
+}
+
+.md-container h4 {
+  @apply mt-4 !important;
+}
+
+.md-container h5 {
+  @apply mt-2 !important;
+}
+
+.md-container p,
+.md-container li {
+  color: rgba(15, 15, 15, 0.8);
+}
+
+.md-container a {
+  @apply underline !important;
+}
+
+.md-container ul {
+  @apply list-disc flex flex-col gap-2 ml-8 !important;
+}
+
+.md-container ol {
+  @apply list-decimal flex flex-col gap-4 ml-8 !important;
+}
+
+.md-container img {
+  @apply border-2 rounded-lg my-4 !important;
 }
